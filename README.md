@@ -9,6 +9,6 @@
 
 ## This is a blog project developed with Laravel 9 and TailwindCSS
 
-![Screenshot 2023-02-13 210538](https://user-images.githubusercontent.com/87439220/218531140-0b406aaf-22fb-4163-8262-4e29010a4f09.png)
-![Screenshot 2023-02-13 210559](https://user-images.githubusercontent.com/87439220/218531164-0cc5db9c-8338-43ba-8c09-afc7817dfc13.png)
-![Screenshot 2023-02-13 210626](https://user-images.githubusercontent.com/87439220/218531179-2579d180-aa78-4381-8a48-d4023b4b394a.png)
+![Screenshot 2023-02-15 200825](https://user-images.githubusercontent.com/87439220/219093568-211a3d35-ad77-442b-ae59-8443ea652b91.png)
+![Screenshot 2023-02-15 200909](https://user-images.githubusercontent.com/87439220/219093655-778194f7-f093-4cbe-8d08-b1599a478733.png)
+
