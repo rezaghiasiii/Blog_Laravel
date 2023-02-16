@@ -23,7 +23,7 @@ class PostsController extends Controller
     public function index()
     {
         return view('blog.index', [
-            'posts' => Post::orderBy('updated_at', 'desc')->paginate(20)
+            'posts' => Post::orderBy('updated_at', 'desc')->paginate(12)
         ]);
     }
 
@@ -125,8 +125,8 @@ class PostsController extends Controller
 
     private function storeImage($requset)
     {
-        $newImageName = uniqid() . '_' . $requset->title . '.' . $requset->image->extension();
+        $newImageName = time() . '_' . $requset->title . '.' . $requset->image->extension();
 
-        return $requset->image->move(public_path('images'), $newImageName);
+        return $requset->image->move('images', $newImageName);
     }
 }
